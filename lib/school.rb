@@ -1,7 +1,7 @@
 # code here!
 class School 
   
-  ROSTER = []
+  attr_accessor :name, :roster 
   
   def initialize(name) 
     school = School.new("Bayside High School")
